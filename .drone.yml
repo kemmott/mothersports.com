@@ -1,3 +1,4 @@
-image: nginx:mainline-alpine
-script:
-- echo hello world
+build:
+  image: nginx:mainline-alpine
+  commands:
+    - echo hello world
